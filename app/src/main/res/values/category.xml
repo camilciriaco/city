@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--this id_category must be same with id_category server database-->
+    <integer-array name="id_category">
+        <item>1</item> <!--TOURIST_DESTINATION-->
+        <item>2</item> <!--FOOD_DRINK-->
+        <item>3</item> <!--HOTELS-->
+        <item>4</item> <!--ENTERTAINMENT-->
+        <item>5</item> <!--SPORT-->
+
+        <item>6</item> <!--SHOPPING-->
+        <item>7</item> <!--TRANSPORTATION-->
+        <item>8</item> <!--RELIGION-->
+        <item>9</item> <!--PUBLIC_SERVICES-->
+        <item>10</item> <!--MONEY-->
+
+        <item>11</item> <!--FEATURED-->
+    </integer-array>
+
+    <string-array name="category_name">
+        <item>Carpenter</item>
+        <item>Driver</item>
+        <item>Electrician</item>
+        <item>Gardener</item>
+        <item>House Helper</item>
+        <item>Laundry Helper</item>
+        <item>Mechanic</item>
+        <item>Painter</item>
+        <item>Photographer</item>
+        <item>Plumber</item>
+        <item>Technician</item>
+    </string-array>
+
+    <integer-array name="category_icon">
+        <item>@drawable/ic_nav_carp</item>
+        <item>@drawable/ic_nav_driver</item>
+        <item>@drawable/ic_nav_elect</item>
+        <item>@drawable/ic_nav_gard</item>
+        <item>@drawable/ic_nav_househ</item>
+
+        <item>@drawable/ic_nav_laundryh</item>
+        <item>@drawable/ic_nav_mech</item>
+        <item>@drawable/ic_nav_paint</item>
+        <item>@drawable/ic_nav_photo</item>
+        <item>@drawable/ic_nav_plum</item>
+
+        <item>@drawable/ic_nav_tech</item>
+    </integer-array>
+
+
+</resources>

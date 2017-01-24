@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <group android:id="@+id/top_sub">
+            <item
+                android:id="@+id/nav_all"
+                android:icon="@drawable/ic_nav_all"
+                android:title="@string/title_nav_all" />
+
+            <item
+                android:id="@+id/nav_favorites"
+                android:icon="@drawable/ic_nav_fav"
+                android:title="@string/title_nav_fav"
+                app:actionLayout="@layout/menu_counter" />
+        </group>
+        <item
+            android:id="@+id/nav_carp"
+            android:icon="@drawable/ic_nav_carp"
+            android:title="@string/title_nav_carp" />
+        <item
+            android:id="@+id/nav_driver"
+            android:icon="@drawable/ic_nav_driver"
+            android:title="@string/title_nav_driver" />
+        <item
+            android:id="@+id/nav_elect"
+            android:icon="@drawable/ic_nav_elect"
+            android:title="@string/title_nav_elec" />
+        <item
+            android:id="@+id/nav_gard"
+            android:icon="@drawable/ic_nav_gard"
+            android:title="@string/title_nav_gard" />
+        <item
+            android:id="@+id/nav_househ"
+            android:icon="@drawable/ic_nav_househ"
+            android:title="@string/title_nav_househ" />
+        <item
+            android:id="@+id/nav_laundryh"
+            android:icon="@drawable/ic_nav_laundryh"
+            android:title="@string/title_nav_laundryh" />
+        <item
+            android:id="@+id/nav_mech"
+            android:icon="@drawable/ic_nav_mech"
+            android:title="@string/title_nav_mech" />
+        <item
+            android:id="@+id/nav_paint"
+            android:icon="@drawable/ic_nav_paint"
+            android:title="@string/title_nav_paint" />
+        <item
+            android:id="@+id/nav_photo"
+            android:icon="@drawable/ic_nav_photo"
+            android:title="@string/title_nav_photo" />
+        <item
+            android:id="@+id/nav_plum"
+            android:icon="@drawable/ic_nav_plum"
+            android:title="@string/title_nav_plum" />
+        <item
+            android:id="@+id/nav_tech"
+            android:icon="@drawable/ic_nav_tech"
+            android:title="@string/title_nav_tech" />
+    </group>
+    <!--Tourist Destination-->
+    <!--Food & Drink-->
+    <!--Hotels-->
+    <!--Entertainment-->
+    <!--Sport-->
+    <!--Shopping-->
+    <!--Transportation-->
+    <!--Religion-->
+    <!--Public Services-->
+    <!--Money-->
+
+</menu>

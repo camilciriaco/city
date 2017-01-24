@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_category"
+        android:icon="@drawable/ic_menu_category"
+        android:title="Category"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/nav_all"
+                android:title="@string/title_nav_all"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/nav_carp"
+                android:title="@string/title_nav_carp"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/nav_driver"
+                android:title="@string/title_nav_driver"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/nav_elect"
+                android:title="@string/title_nav_elec"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/nav_gard"
+                android:title="@string/title_nav_gard"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/nav_househ"
+                android:title="@string/title_nav_househ"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/nav_laundryh"
+                android:title="@string/title_nav_laundryh"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/nav_mech"
+                android:title="@string/title_nav_mech"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/nav_paint"
+                android:title="@string/title_nav_paint"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/nav_photo"
+                android:title="@string/title_nav_photo"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/nav_plum"
+                android:title="@string/title_nav_plum"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/nav_tech"
+                android:title="@string/title_nav_tech"
+                app:showAsAction="never" />
+        </menu>
+
+    </item>
+</menu>
